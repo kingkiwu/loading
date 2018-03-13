@@ -1,0 +1,62 @@
+/* 
+* @Author: Marte
+* @Date:   2018-03-09 12:07:35
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-03-13 10:59:39
+*/
+*{
+    padding:0;
+    margin:0;
+}
+body { 
+    background:#fff;
+    color:#555; 
+    font-size:14px; 
+    font-family: Verdana, Arial, Helvetica, sans-serif; 
+}
+ul{
+    list-style: none;
+}
+#box {
+    width: 700px;
+    margin:  100px auto;
+}
+.item {
+    width: 300px;
+    height: 400px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    float:left;
+}
+.title {
+    border-radius: 10px 10px 0 0;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    background: #eee;
+}
+.title label {
+    float: left;
+}
+.title span {
+    float: right;
+}
+.item ul {
+    padding: 0 20px;
+}
+.item ul li{
+    margin-top: 10px;
+}
+.buttom {
+    height: 400px;
+    width: 80px;
+    float: left;
+    margin-top: 150px;
+}
+.buttom input {
+    width: 30px;
+    margin: 20px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+}
